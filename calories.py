@@ -1,15 +1,10 @@
 def calories_burned(duration, exercise):
   if exercise == "berlari":
-    calorie_burn = duration * 10
-    print(calorie_burn)
+    return duration * 10
   elif exercise == "bersepeda":
-    calorie_burn = duration * 8
-    print(calorie_burn)
+    return duration * 8
   elif exercise == "berenang":
-    calorie_burn = duration * 12
-    print(calorie_burn)
-  else: 
-    print("Kegiatan tidak ditemukan")
+    return duration * 12
 
 def total_session_burned_cal(*args, each_session_duration):
     a = 0
